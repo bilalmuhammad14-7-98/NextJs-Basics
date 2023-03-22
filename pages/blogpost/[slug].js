@@ -5,11 +5,11 @@ const Post = () => {
 
   console.log(router.query, "router");
 
-  const { id } = router.query;
+  const { slug } = router.query;
 
   return (
     <>
-      <p>Post is : {id}</p>
+      <p>Post is : {slug}</p>
     </>
   );
 };
