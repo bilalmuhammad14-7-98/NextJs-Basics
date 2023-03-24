@@ -52,7 +52,7 @@
 }
 
 .description {
-  margin: 4rem 0;
+  margin: 2rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
 }
@@ -130,4 +130,16 @@
 
 .blogItem {
   margin-top: 10px;
+  line-height: 2rem;
+}
+
+.myImg {
+  border-radius: 20px;
+}
+
+.imgWrap {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: pink;
+  border-radius: 20px;
 }

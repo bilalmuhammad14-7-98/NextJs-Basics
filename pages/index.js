@@ -3,17 +3,18 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Link from "next/link";
-import Dummy from "../components/dummy";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Dummy />
       <style jsx>{`
-        .mySpan {
-          color: red;
+        h2 {
+          font-size: 38px;
+        }
+        h3 {
+          font-size: 28px;
         }
       `}</style>
       <Head>
@@ -40,8 +41,16 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          <span className="mySpan dummy">Blogs</span>
+          <span className="mySpan">Blogs</span>
         </h1>
+        <div className={styles.imgWrap}>
+          <Image
+            className={styles.myImg}
+            src="/homeimage.jpg"
+            width={500}
+            height={300}
+          />
+        </div>
 
         <p className={styles.description}>List my frequently viewed blogs</p>
 
