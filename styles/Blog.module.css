@@ -20,3 +20,8 @@
   padding-top: 3rem;
   align-items: center;
 }
+
+.blogItemPara {
+  color: black;
+  max-width: 45vw;
+}
