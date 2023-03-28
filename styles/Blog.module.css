@@ -4,7 +4,11 @@
   cursor: pointer;
 }
 
-.blogItem h1 {
+.blogItem h3 {
+  font-size: 2rem;
+  line-height: 3rem;
+  margin: 0;
+  padding: 0;
 }
 .container {
   padding: 0 2rem;

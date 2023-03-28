@@ -19,7 +19,7 @@ const Blog = () => {
     <>
       <div className={styles.container}>
         <main className={styles.main}>
-          <h2>Popular Blogs</h2>
+          <h1>Popular Blogs</h1>
           {blogs.map((item) => {
             return (
               <>
@@ -34,29 +34,6 @@ const Blog = () => {
               </>
             );
           })}
-          {/* <div className={styles.blogItem}>
-            <Link href={"/blogpost/learn-javascript"}>
-              <h3>How to learn javascripy in 2022?</h3>
-            </Link>
-            <p>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            </p>
-          </div>
-          <div className={styles.blogItem}>
-            <h3>How to learn javascripy in 2022?</h3>
-            <p>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            </p>
-          </div>
-          <div className={styles.blogItem}>
-            <h3>How to learn javascripy in 2022?</h3>
-            <p>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            </p>
-          </div> */}
         </main>
       </div>
     </>
