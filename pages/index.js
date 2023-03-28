@@ -27,9 +27,17 @@ export default function Home() {
           <span className="mySpan">Blogs</span>
         </h1>
         <div className={styles.imgWrap}>
-          <Image
+          {/* <Image
             className={styles.myImg}
             src="/homeimage.jpg"
+            width={500}
+            height={300}
+          /> */}
+
+          <img
+            src="/homeimage.jpg"
+            className={styles.myImg}
+            alt=""
             width={500}
             height={300}
           />
